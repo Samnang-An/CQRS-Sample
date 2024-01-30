@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ApiGateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ConfigServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Kafka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ProductCommandService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ProductCommandService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ProductQueryCommandService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ServiceDirectory/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StockCommandService/src/main/java" charset="UTF-8" />
+  </component>
+</project>
