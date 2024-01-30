@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: stock-command
+  config:
+    import: configserver:http://localhost:9000/
