@@ -17,7 +17,9 @@ public class ProductDto {
   private int quantity;
 
   public static ProductDto from(Product product) {
-    if(Objects.isNull(product)) return null;
+    if (Objects.isNull(product)) {
+      return null;
+    }
     return new ProductDto(product.getProdNum(), product.getName(), product.getPrice(),
         product.getQuantity());
   }

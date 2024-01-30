@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document( collection = "productQuery")
+@Document(collection = "productQuery")
 @Data
 @Builder
 @AllArgsConstructor
@@ -15,7 +15,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Product {
 
   @Id
-  private long  prodNum;
+  private long prodNum;
   private String name;
   private double price;
   private int quantity;
